@@ -1,0 +1,26 @@
+/* styel for project */
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+
+
+.text-header {
+  text-align: center;
+  font-size: 48px;
+  color: blue;
+  line-height: 38px;
+}
+
+#myChart {
+  width: 800px;
+}
+  
+.material-icons.orange600 { color: #FB8C00; }
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Date Visalization</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.3/pixi.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="stylesheet" href="style.css" />
+    <body>
+		<header>
+			<h2 class="text-header py-4">Date Chart</h2>
+		</header>
+		<main role="main">
+			<div class="container-fluid ">
+				<!-- Pixi JS -->
+				<div class="col-12">
+					<canvas id="chartUser" > </canvas>
+				</div>
+				<!-- Chart JS -->
+				<div class="col-12">
+					<div class="row">
+						<div class="col-12 col-lg-10 offset-lg-1">
+							<!-- <section class="mt-5">
+								<canvas id="myChart" class="Chart-one" width="950" height="400"></canvas>
+							</section> -->
+							<!-- <canvas id="display"></canvas> -->
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-lg-3 ml-auto">
+							<section class="mt-5">
+								<div class="">
+									<h3 class="text-left">  All Users  </h3>
+									<ul class="list-unstyled">
+										<li class="media my-5 d-flex align-items-center">
+											<img src="images/account_circle-black-48dp.svg"  alt="ACCOUNT-CICRCLE-BLACK-48DP">
+										  <div class="media-body d-flex justify-content-around">
+											<h5 class="mt-0 mb-1">User One</h5>
+											<div class="spinner-grow text-primary" role="status">
+												<span class="sr-only">Loading...</span>
+											</div>
+										  </div>
+										</li>
+										<li class="media my-5 d-flex align-items-center">
+											<img src="images/account_circle-black-48dp.svg"  alt="ACCOUNT-CICRCLE-BLACK-48DP">
+										  <div class="media-body d-flex justify-content-around">
+											<h5 class="mt-0 mb-1">User Two</h5>
+											<div class="spinner-grow text-success" role="status">
+												<span class="sr-only">Loading...</span>
+											</div>
+										  </div>
+										</li>
+										<li class="media my-5 d-flex align-items-center">
+											<img src="images/account_circle-black-48dp.svg"  alt="ACCOUNT-CICRCLE-BLACK-48DP">
+										  <div class="media-body d-flex justify-content-around">
+											<h5 class="mt-0 mb-1">User Three</h5>
+											<div class="spinner-grow text-danger" role="status">
+												<span class="sr-only">Loading...</span>
+											</div>
+										  </div>
+										</li>
+										<li class="media my-5 d-flex align-items-center">
+											<img src="images/account_circle-black-48dp.svg"  alt="ACCOUNT-CICRCLE-BLACK-48DP">
+										  <div class="media-body d-flex justify-content-around">
+											<h5 class="mt-0 mb-1">User Four</h5>
+											<div class="spinner-grow text-warning" role="status">
+												<span class="sr-only">Loading...</span>
+											</div>
+										  </div>
+										</li>
+										<li class="media my-5 d-flex align-items-center">
+											<img src="images/account_circle-black-48dp.svg"  alt="ACCOUNT-CICRCLE-BLACK-48DP">
+										  <div class="media-body d-flex justify-content-around">
+											<h5 class="mt-0 mb-1">User Five</h5>
+											<div class="spinner-grow text-info" role="status">
+												<span class="sr-only">Loading...</span>
+											</div>
+										  </div>
+										</li>
+									  </ul>
+								</div>
+							</section>
+						</div>
+						<div class="col-12 col-lg-7 mr-auto">
+							<section class="mt-5">
+								<canvas id="myLineChart" width="950" height="500"></canvas>
+							</section>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</main>
+
+	<!-- Optional JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="js/main.js" ></script>
+	<script src="js/index.js" ></script>
+    </body>
+</html>
